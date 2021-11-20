@@ -3,14 +3,14 @@ html{
 
 }
 
-/* Estilos del Header */
+/*header*/
 
 header{
     display: flex;
     justify-content:space-between;
     padding: 0 15px;
-    color: #FFFFFF;
-    background-color: #00AF1C;
+    color: white;
+    background-color: #00af1c;
     font-size: 32px;
     height: 99px;
     align-items: center;
@@ -29,19 +29,19 @@ header li{
 }
 header nav a{
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 18px;
+    color: whitesmoke;
+    font-size: 17px;
 }
 
-/* Estilos del main */
+/* main */
 
 main{
     padding: 0 15px;
     padding-top: 30px;
-    background-color: #E5E5E5;;
+    background-color: whitesmoke;
 }
 main h2{
-    color: #3B06D2;
+    color: #3b3cda;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -50,9 +50,9 @@ main img{
     margin-right: 15px;
 }
 main .title-portafolio{
-    color: #AAD206;
+    color: #afd53d;
 }
-main .title-contacto{
+main .title-contact{
     color: #06D2C6;
 }
 main p{
@@ -72,16 +72,17 @@ main .images{
     justify-content: center;
     margin-bottom: 30px;
 }
-main .servicios ul{
+main .services ul{
     margin-bottom: 20px;
 }
 main .s1{
-    color: #FF0000;
+    color: #ff0000;
+
 }
 main .s2{
-    color: #3B06D2;
+    color: #3b3cda;
 }
 main .s3{
-    color: #AAD206;
+    color: #afd53d;
 }
 main .s4{
